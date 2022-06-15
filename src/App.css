@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+
+.homePage{
+    padding:20rem 10px 0 10px;
+    color:white;
+    text-align:center;
+    max-width:100%;
+    height:100vh;
+    background-image: linear-gradient( 180.4deg,  rgba(188,120,236,1) -2.2%, rgba(29,133,163,1) 83.5% );
+}
+.name{
+font-size:2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    font-size:6vw;
+}
+.header{
+   text-align: center;
+   line-height:4vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    font-size:2.5rem;
+    display:inline-block;
+    padding:2rem 1.5rem;
+    margin:auto 0;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.iconsContainer{
+text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutText{
+    border:1px solid white;
+    border-radius:10px;
+    max-width:90%;
+    padding:7px;
+    margin:3rem auto;
+    background-color: black;
+    display:none;
+}
+.brand{
+    font-size:0.9rem;
+    width:100%;
+    position:absolute;
+    text-align: center;
+    bottom:1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media only screen and (max-width:600px){
+   .name{
+       font-size:8vw;
+   }
+}
+
+@media only screen and (min-width:650px){
+    .header{
+        line-height:5vh;
+    }
+}
+
+@media only screen and (min-width:900px){
+    
+    .name{
+        line-height:3rem;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    a{
+        padding:5rem 3.5rem;
+        font-size:3rem;
+    }
+}
+
+@media only screen and (min-width:1500px){
+  
+    .name{
+       font-size:2.5rem;
+       line-height:8rem;
+    }
+
 }
