@@ -19,7 +19,7 @@ font-size:2rem;
    line-height:4vh;
 }
 
-a{
+ a{
     font-size:2.5rem;
     display:inline-block;
     padding:2rem 1.5rem;
@@ -27,20 +27,36 @@ a{
 
 }
 
+.github :hover{
+  color:black;}
 
-
-.iconsContainer{
-text-align: center;
+.linkedIn :hover{
+  color:rgba(3, 9, 196, 0.743);
+} 
+.gmail :hover{
+  color:rgb(123, 17, 123);
 }
 
+.buttons :hover{
+animation-name:button;
+position:relative;
+animation-duration:0.5s;
+}
+
+@keyframes button{
+    0% {bottom:0px;}
+    50%{bottom:5px;}
+    100%{bottom:0px;}
+}
+
+
+
+
 .aboutText{
-    border:1px solid white;
-    border-radius:10px;
-    max-width:90%;
-    padding:7px;
+    max-width:60%;
+    min-height:25%;
     margin:3rem auto;
-    background-color: black;
-    display:none;
+ 
 }
 .brand{
     font-size:0.9rem;
@@ -50,17 +66,25 @@ text-align: center;
     bottom:1rem;
 }
 
+  
 
 @media only screen and (max-width:600px){
    .name{
        font-size:8vw;
    }
+   .description{
+    font-size:0.9rem;
+   }
+  
 }
 
 @media only screen and (min-width:650px){
     .header{
         line-height:5vh;
     }
+    .description{
+        font-size:0.95rem;
+       }
 }
 
 @media only screen and (min-width:900px){
@@ -68,6 +92,7 @@ text-align: center;
     .name{
         line-height:3rem;
     }
+   
 }
 
 @media only screen and (min-width:1200px){

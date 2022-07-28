@@ -13,21 +13,21 @@ function Home() {
                 <h3 className="title">Frontend Developer</h3>
             </div>
             <div className="iconsContainer">
-            <a href="https://github.com/EphraimVC"><BsGithub /></a>
-            <a href="https://www.linkedin.com/in/ephraim-valladares/"><BsLinkedin /></a>
-            <a href="mailto:ephraimmichael@live.com" className="mailIcon"><MdEmail/></a>
+            <a className='buttons github' href="https://github.com/EphraimVC"><BsGithub /></a>
+            <a className='buttons linkedIn' href="https://www.linkedin.com/in/ephraim-valladares/"><BsLinkedin /></a>
+            <a className='buttons gmail' href="mailto:ephraimmichael@live.com"><MdEmail/></a>
             </div>
             <div className="aboutText">
-                <p>
-                    Im a newely graduated Frontend developer with a
-                    great interest in coding.
-                    Optimistic person who dont sees problems only opportunities to learn or improve
-                    both in person and work environment,
-                    enjoys working with others and gladly embraces
-                    new challenges.
-                </p>
-            </div>
-            <div className="brand">
+                <p class="description text-base">
+                    
+                    CURIOUS | OPTIMISTIC | CREATIVE | TEAM PLAYER                    
+                            </p>
+                        
+ </div>
+         <div className="brand">
+            <p className='mb-5 text-sm'>
+               Newer and cooler personal website is coming soon
+            </p>
             <footer>&copy; Ephraim Valladares Cordova {year}</footer>
             </div>
            
